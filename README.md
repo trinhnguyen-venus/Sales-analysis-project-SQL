@@ -94,6 +94,7 @@ Views can be queried directly after executing all scripts
 ## Author
 
 Trinh Nguyen
+
 📧 Contact: ng.trinh3023@gmail.com
 
 📍 GitHub: https://trinhnguyen-venus.github.io/
