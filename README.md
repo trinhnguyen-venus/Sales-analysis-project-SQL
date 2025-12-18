@@ -33,9 +33,28 @@ The goal is to understand where growth comes from and where risks may exist.
 ## 4. Key Insights
 ### 4.1 Sales growth is driven by real demand
 
+**Yearly Sales Overview**
+
+| Year | Total Sales |
+|------|-------------|
+| 2010 | 43,419 |
+| 2011 | 7,075,088 |
+| 2012 | 5,842,231 |
+| 2013 | 16,344,878 |
+| 2014 | 45,642 |
+
 - Sales show a strong **upward trend from 2011 to 2013**, with **2013 as the peak year**.
 - Monthly sales increased from around **$400K–$700K** in earlier years to over $1.5M in multiple months of 2013.
 - Growth is supported by increases in both **active customers and total quantity sold**.
+
+**Selected Monthly Highlights (2013)**
+
+| Month | Total Sales |
+|------|-------------|
+| Jun 2013 | 1,642,948 |
+| Oct 2013 | 1,673,261 |
+| Nov 2013 | 1,780,688 |
+| Dec 2013 | 1,874,128 |
 
 **Insight:**
 
@@ -43,6 +62,12 @@ Sales growth reflects genuine demand expansion rather than short-term price effe
 
 
 ### 4.2 Revenue is heavily concentrated in one category
+
+| Category | Total Sales | % of Total |
+|---------|-------------|------------|
+| Bikes | 28,316,272 | 96.46% |
+| Accessories | 700,262 | 2.39% |
+| Clothing | 339,716 | 1.16% |
 
 - **Bikes account for over 96% of total revenue.**
 - Accessories and Clothing together contribute less than 4%.
@@ -54,6 +79,13 @@ While Bikes are a strong core product line, the business shows **high dependency
 
 ### 4.3 Product cost does not fully explain performance
 
+| Cost Range | Number of Products |
+|-----------|-------------------|
+| Below 100 | 110 |
+| 100–500 | 101 |
+| 500–1000 | 45 |
+| Above 1000 | 39 |
+
 - Most products fall into low to mid cost ranges.
 - Revenue is not evenly distributed across products within the same cost range.
 
@@ -62,6 +94,12 @@ While Bikes are a strong core product line, the business shows **high dependency
 Demand and category relevance matter more than price alone in driving revenue.
 
 ### 4.4 Customer value is unevenly distributed
+
+| Segment | Number of Customers |
+|--------|---------------------|
+| New | 14,631 |
+| Regular | 2,198 |
+| VIP | 1,655 |
 
 - The customer base is dominated by new customers.
 - Regular and VIP customers form a smaller group but represent the core long-term value segment.
@@ -103,16 +141,17 @@ All scripts are modular and can be executed step by step.
 ## 📂 Files Included
 
 Datasets/
-    - `gold.dim_customers.csv` – customer attributes
-    - `gold.dim_products.csv` – product information
-    - `gold.fact_sales.csv` – transaction-level sales data
+
+- `gold.dim_customers.csv` – customer attributes
+- `gold.dim_products.csv` – product information
+- `gold.fact_sales.csv` – transaction-level sales data
 
 Scripts/
 
-    - `01_setup_and_load.sql` – database setup and data loading
-    - `02_sales_analysis.sql` – core analytical queries
-    - `03_customer_report.sql` – customer reporting view
-    - `04_product_report.sql` – product reporting view
+- `01_setup_and_load.sql` – database setup and data loading
+- `02_sales_analysis.sql` – core analytical queries
+- `03_customer_report.sql` – customer reporting view
+- `04_product_report.sql` – product reporting view
 
 
 - `README.md` – Project explanation
