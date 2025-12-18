@@ -104,13 +104,18 @@ All scripts are modular and can be executed step by step.
 
 Datasets/
     - `gold.dim_customers.csv` – customer attributes
+    
     - `gold.dim_products.csv` – product information
+    
     - `gold.fact_sales.csv` – transaction-level sales data
 
 Scripts/
     - `01_setup_and_load.sql` – database setup and data loading
+    
     - `02_sales_analysis.sql` – core analytical queries
+    
     - `03_customer_report.sql` – customer reporting view
+    
     - `04_product_report.sql` – product reporting view
 
 
