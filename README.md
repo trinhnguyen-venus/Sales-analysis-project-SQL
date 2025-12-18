@@ -108,7 +108,6 @@ Datasets/
     - `gold.fact_sales.csv` – transaction-level sales data
 
 Scripts/
-
     - `01_setup_and_load.sql` – database setup and data loading
     - `02_sales_analysis.sql` – core analytical queries
     - `03_customer_report.sql` – customer reporting view
